@@ -525,7 +525,7 @@ class WordPressSecurityTester:
 {'='*80}
 {Fore.YELLOW}WordPress Ultimate Security Tester v5.1 | Termux Android Edition
 {Fore.GREEN}Enhanced with Advanced Bypass Techniques and Comprehensive Testing
-{Fore.CYAN}Created for Authorized Security Testing Only
+{Fore.CYAN}Created for Authorized Security Testing Only telegram : @silent_mimi
 {'='*80}{Style.RESET_ALL}
         """
         print(banner)
@@ -3325,4 +3325,5 @@ if __name__ == "__main__":
         print(f"\n{Fore.RED}[!] Fatal error: {str(e)}{Style.RESET_ALL}")
         import traceback
         traceback.print_exc()
+
         sys.exit(1)
